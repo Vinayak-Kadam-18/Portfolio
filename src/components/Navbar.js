@@ -31,28 +31,28 @@ export default function Navbar() {
           </svg>
         </div> */}
 
-        <div className="pl-8 text-center cursor-pointer text-sm">
+        <div className="pl-8 text-center text-sm">
            <Link
             activeClass="active"
             to="about"
             spy={true}
             smooth={true}
             offset={0}
-            duration={1400} className="p-3 md:p-6 tracking-widest ">About</Link>
+            duration={1400} className="p-3 md:mx-6 cursor-pointer  tracking-widest ">About</Link>
             <Link
             activeClass="active"
             to="contact"
             spy={true}
             smooth={true}
             offset={0}
-            duration={1400} className="p-3 md:p-6 tracking-widest ">Contact</Link>  
+            duration={1400} className="p-3 md:mx-6 cursor-pointer  tracking-widest ">Contact</Link>  
              <Link
             activeClass="active"
             to="project"
             spy={true}
             smooth={true}
             offset={0}
-            duration={1400} className="p-3 md:p-6 tracking-widest ">Projects</Link>           
+            duration={1400} className="p-3 md:mx-6 cursor-pointer  tracking-widest ">Projects</Link>           
          
         </div>
 
