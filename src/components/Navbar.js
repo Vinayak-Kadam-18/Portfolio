@@ -8,13 +8,13 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Navbar() {
   return (
     <>
-      <nav className=" flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
+      <nav className="m-0 p-0 flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
         <Link to="/" className="pl-8">
          
           LOGO
         </Link>
 
-        <div className="px-4 cursor-pointer md:hidden">
+        {/* <div className="px-4 cursor-pointer hidden">
           <svg
             class="w-6 h-6"
             fill="none"
@@ -29,30 +29,30 @@ export default function Navbar() {
               d="M4 6h16M4 12h16M4 18h16"
             ></path>
           </svg>
-        </div>
+        </div> */}
 
-        <div className="pl-8 text-center cursor-pointer md:block hidden">
+        <div className="pl-8 text-center cursor-pointer text-sm">
            <Link
             activeClass="active"
             to="about"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={1400} className="p-6 tracking-widest ">About</Link>
+            offset={0}
+            duration={1400} className="p-3 md:p-6 tracking-widest ">About</Link>
             <Link
             activeClass="active"
             to="contact"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={1400} className="p-6 tracking-widest ">Contact</Link>  
+            offset={0}
+            duration={1400} className="p-3 md:p-6 tracking-widest ">Contact</Link>  
              <Link
             activeClass="active"
             to="project"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={1400} className="p-6 tracking-widest ">Projects</Link>           
+            offset={0}
+            duration={1400} className="p-3 md:p-6 tracking-widest ">Projects</Link>           
          
         </div>
 

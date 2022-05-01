@@ -12,7 +12,7 @@ export default function About
   return (
       
       
-        <div className='container mx-auto text-white mt-24 md:pt-44 p-6 md:grid grid-cols-2  md:p-2' id="about">
+        <div className='container mx-auto text-white pt-24 md:pt-44 p-6 md:grid grid-cols-2  md:p-2' id="about">
 
             <div className='md:flex items-center justify-center sm:hidden'>
                 <img className=' justify-items-center md:w-110 rounded-tl-extraLarge rounded-br-extraLarge rounded-tr-2xl rounded-bl-2xl shadow-2xl hidden md:flex' src={profile} alt="err" />

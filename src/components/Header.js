@@ -4,6 +4,7 @@ import developerlogo from '../images/programmer.png';
 import { MdAddIcCall } from 'react-icons/md';
 export default function Header() {
   return (
+    <>
     <div className='text-white md:pt-20 md:pl-24'>
         <p className='pt-10 pl-10 font-downlinkBold text-md md:text-2xl md:pt-20 '>HI THERE👋.I'M</p>
         <p className='pt-5 pl-10 font-downlinkBold  tracking-widest text-3xl md:text-6xl '>Vinayak Kadam</p>
@@ -25,5 +26,6 @@ export default function Header() {
         <MdAddIcCall />&nbsp;Get In Touch
         </button></Link></p>
     </div>
+  </>
   )
 }

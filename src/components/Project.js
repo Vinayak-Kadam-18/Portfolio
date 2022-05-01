@@ -6,7 +6,7 @@ import card3 from "../images/petadoption.jpg";
 import card1 from '../images/cardimg.jpg'
 export default function Project() {
   return (
-    <div className='p-6 text-white  mt-24 md:mt-30 md:p-28' id="project">
+    <div className='p-6 text-white  pt-24 md:mt-30 md:p-28' id="project">
         <div className='flex items-center'>
                     
                     <h1 className='text-3xl font-downlinkBold md:text-4xl' >Projects&nbsp;&nbsp;</h1>
