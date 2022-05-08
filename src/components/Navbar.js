@@ -8,7 +8,7 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Navbar() {
   return (
     <>
-      <nav className="m-0 p-0 flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
+      <nav  className="m-0 p-0 flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
         <Link to="/" className="pl-8">
          
           LOGO
@@ -38,7 +38,7 @@ export default function Navbar() {
             spy={true}
             smooth={true}
             offset={0}
-            duration={1400} className="p-3 md:mx-6 cursor-pointer  tracking-widest ">About</Link>
+            duration={1400} className="p-3 md:mx-6 cursor-pointer  tracking-widest   ">About</Link>
             <Link
             activeClass="active"
             to="contact"
@@ -58,9 +58,9 @@ export default function Navbar() {
 
         <div className=" pr-2 text-center md:block hidden">
           <div className="flex justify-center text-xl"> 
-           <Link className="p-6  " to="/about"><IoLogoTwitter/></Link>
-            <Link className="p-6" to="/cotact"><BsGithub/></Link>  
-            <Link className="p-6" to="/linkedn"><BsLinkedin/></Link>  
+           <Link className="p-6  cursor-pointer " to="/about"><IoLogoTwitter className="md:hover:text-blue-500"/></Link>
+            <a className="p-6 cursor-pointer" href="https://www.github.com/vinayak-kadam-18/"><BsGithub className="md:hover:text-red-600"/></a>  
+            <a className="p-6 cursor-pointer" href="https://www.linkedin.com/in/vinayak-kadam/"><BsLinkedin className="md:hover:text-blue-400"/></a>  
          </div>
         </div>
 

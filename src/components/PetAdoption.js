@@ -1,7 +1,5 @@
 import React,{ useEffect} from 'react'
 
-
-
 export default function PetAdoption() {
     useEffect(() => {
         window.scrollTo(0,0);
@@ -16,12 +14,12 @@ export default function PetAdoption() {
         </div>
         <div>
             <p className='font-serif pt-10 text-md md:text-xl tracking-wide'>
-                <p>The Pet Adoption website is made using <span className='text-neon'> MERN stack.</span></p><br/>
+                <p>The Pet Adoption website is made using <span className='text-pink-500 font-bold'> MERN stack.</span></p><br/>
                 <p className='text-gray-200'><b>The pet adoption web application stores the following information.</b></p>
-                <p className='pt-3'><span className='text-neon '>User details:</span></p>
+                <p className='pt-3'><span className='text-pink-500 font-bold '>User details:</span></p>
                 <p>It will include user name, user email id, user pin-code. This information will be used for display to
                 other users who want to adopt pet or give pet for adoption or vise-versa.</p><br/>
-                <p><span className='text-neon'>Pet description:</span></p>
+                <p><span className='text-pink-500 font-bold'>Pet description:</span></p>
                 <p>It will include detail information about a pet, like pet age, pet image, pet location, type of pet,
                 pet breed (if any). All this information will be useful for the user who wants to adopt the pet</p>
 

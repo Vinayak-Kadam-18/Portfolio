@@ -31,7 +31,7 @@ export default function About
                     <br />
                     Fast forward to today, and I've had the privilege of working at an{" "}
                     <b>
-                        <span className="text-neon">
+                    <span className='text-pink-400'>
                         advertising agency, a start-up, a huge corporation and student
                         led studio
                         </span>

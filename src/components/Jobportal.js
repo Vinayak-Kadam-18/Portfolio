@@ -15,7 +15,7 @@ export default function Jobportal() {
         </div>
         <div>
             <p className='font-serif pt-10 text-md md:text-xl tracking-wide'>
-                <p>The Jobportal website is made using <span className='text-neon'> PHP</span> and <span className='text-neon'>MySQL</span></p><br/>
+                <p>The Jobportal website is made using <span className='text-pink-500 font-bold'> PHP</span> and <span className='text-pink-500 font-bold'>MySQL</span></p><br/>
                 The system has following requirements:
                 <div className='pl-4'>
                     <p>•	Job seekers Registration.</p>
