@@ -17,7 +17,7 @@ export default function Contact() {
 
     }
   return (
-    <div className=' text-white mt-24 md:pl-28 md:pr-28 md:mt-1' >
+    <div className=' text-white mt-24 md:pl-28 md:pr-28 md:mt-1 mb-10'  >
         <div className='p-4 flex items-center' id="contact">
                     
                     <h1 className='text-3xl font-downlinkBold md:text-4xl'>Contact&nbsp;&nbsp;</h1>
