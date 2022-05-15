@@ -27,7 +27,7 @@ export default function Contact() {
         <div className='mt-10 flex justify-center items-center'>
         <p className='pl-6 pr-6 font-serif text-gray-300 md:pt-8 md:text-2xl'>Get In Touch With Me To Get The Business Done!</p>          
         </div>
-        <div className='grid grid-cols-5 justify-items-center p-1 pt-10 md:pt-16'>
+        <div className='grid grid-cols-5 justify-center items-center pl-3 md:pl-10 pt-10 md:pt-16'>
             <div>
                 <a href='mailto:vinayakkadam935@gmail.com'><button className="flex items-center bg-gray-700 rounded-full transition-shadow ease-in-out md:hover:-translate-y-3 md:hover:scale-105 text-white font-serif py-2 px-6 md:py-4 md:px-8 md:text-3xl">
                 <MdOutlineEmail/></button></a><br/>
