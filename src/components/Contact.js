@@ -17,17 +17,17 @@ export default function Contact() {
 
     }
   return (
-    <div className='p-6 text-white mt-24 md:pl-28 md:pr-28 md:mt-1' >
-        <div className='flex items-center' id="contact">
+    <div className=' text-white mt-24 md:pl-28 md:pr-28 md:mt-1' >
+        <div className='p-4 flex items-center' id="contact">
                     
                     <h1 className='text-3xl font-downlinkBold md:text-4xl'>Contact&nbsp;&nbsp;</h1>
                     <div class="flex-grow border-4 border-gray-400"></div>
                    
         </div>
         <div className='mt-10 flex justify-center items-center'>
-        <p className='font-serif text-gray-300 md:pt-8 md:text-2xl'>Get In Touch With Me To Get The Business Done!</p>          
+        <p className='pl-6 pr-6 font-serif text-gray-300 md:pt-8 md:text-2xl'>Get In Touch With Me To Get The Business Done!</p>          
         </div>
-        <div className='grid grid-cols-5 justify-items-center pt-10 md:pt-16'>
+        <div className='grid grid-cols-5 justify-items-center p-1 pt-10 md:pt-16'>
             <div>
                 <a href='mailto:vinayakkadam935@gmail.com'><button className="flex items-center bg-gray-700 rounded-full transition-shadow ease-in-out md:hover:-translate-y-3 md:hover:scale-105 text-white font-serif py-2 px-6 md:py-4 md:px-8 md:text-3xl">
                 <MdOutlineEmail/></button></a><br/>

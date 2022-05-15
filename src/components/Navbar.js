@@ -31,7 +31,7 @@ export default function Navbar() {
           </svg>
         </div> */}
 
-        <div className="pl-8 text-center text-sm">
+        <div className="md:pl-8 text-center text-xs md:text-sm">
            <Link
             activeClass="active"
             to="about"
