@@ -8,7 +8,7 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Navbar() {
   return (
     <>
-      <nav  className="m-0 p-0 flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
+      <nav  className="text-xs md:text-sm m-0 p-0 flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
         <Link to="/" className="pl-8">
          
           LOGO
