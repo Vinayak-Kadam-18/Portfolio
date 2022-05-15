@@ -6,7 +6,7 @@ import { SiLinkedin } from "react-icons/si";
 import { FaTwitter } from "react-icons/fa";
 import { TiArrowDownThick } from "react-icons/ti";
 
-import Resume from '../file/resume.pdf'
+import Resume from '../file/Resume.pdf'
 import swal from 'sweetalert';
 
 export default function Contact() {
