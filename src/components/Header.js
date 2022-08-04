@@ -10,8 +10,8 @@ export default function Header() {
         <p className='pt-5 pl-10 font-downlinkBold  tracking-wider text-3xl md:text-7xl '>Vinayak Kadam</p>
         <p className='pt-4 pl-10 font-nova tracking-wider flex text-2xl md:pt-8  md:text-4xl'><span className='bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-pink-500 to-pink-500'>Designer + Developer&nbsp;</span> <img src={developerlogo} alt="dev"/></p>
         <p className=" font-sans font-semibold text-xl pt-3 pl-10  text-gray-400 md:text-2xl md:pt-5 md:w-2/4">
-            I am software engineer based in Mumbai,India  
-            specialized in building high quality website
+            I am Student Based In Mumbai,India<br/>
+            Passionate About Building High Quality Website
         </p>
        
         <p className='pt-5 pl-10'>

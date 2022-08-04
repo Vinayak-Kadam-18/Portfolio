@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-scroll/modules';
+import { Link as Links } from 'react-router-dom';
 import { IoLogoTwitter } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
@@ -9,10 +10,10 @@ export default function Navbar() {
   return (
     <>
       <nav  className="text-xs md:text-sm m-0 p-0 flex justify-between items-center h-16 text-white bg-zinc-900 shadow-lg font-semibold font-downlinkBold sticky top-0 z-50" role="navigation">
-        <Link to="/" className="pl-8">
+        <Links to="/" className="pl-8">
          
           LOGO
-        </Link>
+        </Links>
 
         {/* <div className="px-4 cursor-pointer hidden">
           <svg

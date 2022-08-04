@@ -1,5 +1,12 @@
 import React,{ useEffect} from 'react'
+import SimpleImageSlider from "react-simple-image-slider";
 
+const images = [
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Pet-Adoption-Website/master/screenshots//1.png" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Pet-Adoption-Website/master/screenshots//2.png" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Pet-Adoption-Website/master/screenshots//3.png" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Pet-Adoption-Website/master/screenshots//4.png" },  
+];
 export default function PetAdoption() {
     useEffect(() => {
         window.scrollTo(0,0);
@@ -46,7 +53,28 @@ export default function PetAdoption() {
             <p className='text-xl pb-3'>To view Live Demo:</p>
             <a className='underline text-blue-400 md:text-xl  ' href='https://petsmaart.netlify.app/'>https://petsmaart.netlify.app/</a>
         </div>
-
+        
+        <div className='hidden md:block'>
+            <div className='flex items-center pt-20' id="snap">                    
+                        <h1 className='text-3xl font-downlinkBold md:text-4xl'>Snapshots&nbsp;&nbsp;</h1>
+                        <div class="flex-grow border-2 border-gray-400"></div>                   
+            </div>
+            <br/><br/>
+            <div align="center">
+            <SimpleImageSlider
+            
+            width={758}
+            height={350}
+            images={images}
+            showBullets={false}
+            showNavs={false}
+            autoPlay={true}
+            autoPlayDelay={5}
+            slideDuration={1}
+        />
+            </div>
+         </div>
+       
     </div>
   )
 }

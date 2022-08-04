@@ -1,5 +1,17 @@
 import React,{ useEffect} from 'react'
+import SimpleImageSlider from "react-simple-image-slider";
 
+const images = [
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/1.png" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/6.PNG" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/3.png" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/5.PNG" },  
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/8.PNG" }, 
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/4.PNG" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/9.PNG" },
+    { url: "https://raw.githubusercontent.com/Vinayak-Kadam-18/Jobportal/master/screenshots/screenshots/7.PNG" },  
+
+];
 
 export default function Jobportal() {
     useEffect(() => {
@@ -58,6 +70,25 @@ export default function Jobportal() {
             <a className='underline text-blue-400 md:text-xl  ' href='https://vk-jobportals.000webhostapp.com'>https://vk-jobportals.000webhostapp.com</a>
         </div>
 
+        <div className='hidden md:block'>
+            <div className='flex items-center pt-20' id="snap">                    
+                        <h1 className='text-3xl font-downlinkBold md:text-4xl'>Snapshots&nbsp;&nbsp;</h1>
+                        <div class="flex-grow border-2 border-gray-400"></div>                   
+            </div>
+            <br/><br/>
+            <div align="center">
+            <SimpleImageSlider
+            width={758}
+            height={350}
+            images={images}
+            showBullets={false}
+            showNavs={false}
+            autoPlay={true}
+            autoPlayDelay={5}
+            slideDuration={1}
+        />
+            </div>
+         </div>
     </div>
   )
 }
