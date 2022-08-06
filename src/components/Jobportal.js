@@ -84,7 +84,7 @@ export default function Jobportal() {
             showBullets={false}
             showNavs={false}
             autoPlay={true}
-            autoPlayDelay={5}
+            autoPlayDelay={4}
             slideDuration={1}
         />
             </div>

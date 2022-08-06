@@ -6,7 +6,10 @@ import { FaPhp } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { SiNodedotjs } from "react-icons/si";
 
-import profile from '../images/profile.jpg'
+//import profile from '../images/profile.jpg'
+import globe from '../images/globe.png'
+
+
 export default function About
 () {
   return (
@@ -15,7 +18,7 @@ export default function About
         <div className='container mx-auto text-white pt-24 md:pt-44 p-6 md:grid grid-cols-2  md:p-2' id="about">
 
             <div className='md:flex items-center justify-center sm:hidden md:px-10'>
-                <img className=' justify-items-center md:w-100  rounded-tl-extraLarge rounded-br-extraLarge rounded-tr-2xl rounded-bl-2xl shadow-2xl hidden md:flex' src={profile} alt="err" />
+                <img className=' justify-items-center md:w-80 hidden md:flex' src={globe} alt="err" />
             </div>
             <div>
                 <div className='flex items-center'>
